@@ -6,7 +6,7 @@ metadata:
     app: d11-sample-spring-boot-app-k8s
     backstage.io/kubernetes-id: d11-sample-spring-boot-app-k8s
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: d11-sample-spring-boot-app-k8s
